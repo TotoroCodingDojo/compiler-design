@@ -12,8 +12,8 @@
 |LLVM is modular
 |GCC is more tightly coupled, having monolithic reliability.
 
-|image:llvm-architecture.png[LLVM Architecture]
-|image:gcc-arch.png[GCC Architecture]
+|image:img/llvm-architecture.png[LLVM Architecture]
+|image:img/gcc-arch.png[GCC Architecture]
 
 | Frontend converts `source code` into `intermediate representation IR` (which is a universal machine agnostic form)
 | Here the frontend converts the code form AST to Gimble. RTL - Register Transfer Language is more related to hardware.
@@ -21,8 +21,8 @@
 | Since it is modular once you target a particular hardware, it will work for all other compilers that use LLVM backend. Like LLVM supports *WebAssembly* and *RISC V*.
 | It has more reliability with older architecture, like x86 and more optimized for faster compilation.
 
-|image:llvm-arch-flow.png[LLVM Flow]
-|image:gcc-flow.png[GCC Flow]
+|image:img/llvm-arch-flow.png[LLVM Flow]
+|image:img/gcc-flow.png[GCC Flow]
 
 |Much more to be adopted by proprietary because they don't need to share modification back.
 |GCC has GPL, so modifications must be shared back.
